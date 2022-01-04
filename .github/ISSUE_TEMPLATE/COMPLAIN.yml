@@ -10,6 +10,14 @@ body:
       placeholder: Например Evan💻#6456
     validations:
       required: true
+   - type: input
+    id: user
+    attributes:
+      label: На кого вы жалуетесь ?
+      description: Дискорд пользователя, на которого Вы жалуетесь
+      placeholder: Например Werdor#0857
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
