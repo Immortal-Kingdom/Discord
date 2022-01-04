@@ -1,6 +1,5 @@
 name: Жалоба
 description: Подать далобу на пользователя или модератора
-title: "[ЖАЛОБА]: "
 labels: ["Жалоба"]
 body:
   - type: input
@@ -10,7 +9,7 @@ body:
       description: Как мы можем с Вами связаться ?
       placeholder: Например Evan💻#6456
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
