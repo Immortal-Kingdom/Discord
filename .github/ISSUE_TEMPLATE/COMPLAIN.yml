@@ -1,0 +1,29 @@
+name: Жалоба
+description: Подать далобу на пользователя или модератора
+title: "[ЖАЛОБА]: "
+labels: ["Жалоба"]
+body:
+   - type: input
+    id: contact
+    attributes:
+      label: Ваш ник в Дискорде
+      description: Как мы можем с Вами связаться ?
+      placeholder: Например: Evan💻#6456
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Что произошло ?
+      description: Также расскадите, при каких обстоятельстав это случилось
+      placeholder: Расскажите нам, что произошло !
+    validations:
+      required: true
+  - type: checkboxes
+    id: mods
+    attributes:
+      label: Это был человек из команды администрации ?
+      description: Укажите, если это был модератор
+      options:
+        - label: Да
+          required: false
