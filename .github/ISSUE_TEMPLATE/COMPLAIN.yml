@@ -4,13 +4,13 @@ title: "[ЖАЛОБА]: "
 labels: ["Жалоба"]
 body:
   - type: input
-   id: contact
-   attributes:
-     label: Ваш ник в Дискорде
-     description: Как мы можем с Вами связаться ?
-     placeholder: Например: Evan💻#6456
-   validations:
-     required: true
+    id: contact
+    attributes:
+      label: Ваш ник в Дискорде
+      description: Как мы можем с Вами связаться ?
+      placeholder: Например Evan💻#6456
+    validations:
+      required: false
   - type: textarea
     id: what-happened
     attributes:
