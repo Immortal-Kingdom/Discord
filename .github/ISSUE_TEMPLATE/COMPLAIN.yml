@@ -13,7 +13,7 @@ body:
   - type: input
     id: user
     attributes:
-      label: На кого вы жалуетесь ?
+      label: На кого Вы жалуетесь ?
       description: Дискорд пользователя, на которого Вы жалуетесь
       placeholder: Например Werdor#0857
     validations:
